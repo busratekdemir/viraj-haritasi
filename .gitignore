@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Büyük ve özel veriler
+data/raw/*
+data/interim/*
+results/videos/*
+*.mp4
+*.mov
+
+# Dosya izinlerini korumak için klasör işaretleri
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!results/videos/.gitkeep
+
+# Gizli ayarlar
+.env
+
+# Flutter
+mobile/**/.dart_tool/
+mobile/**/build/
+mobile/**/.flutter-plugins
+mobile/**/.flutter-plugins-dependencies
